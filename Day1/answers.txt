@@ -1,0 +1,33 @@
+Part 3)
+OR queries: Return a very high number of hits, but may not all be that relevant, as only on term needs to match
+AND queries: Very few matches, but very relevant, as they contains all terms.
+Phrase queries: When combined with AND, there were no matches, too restrictive. With OR, the matches are therefore all related to the "diabetes" term.
+
+Fuzzy vs exact match:
+Fuzzy had the same results as exact match, as I didn't include any typing error and there are no variations with related spelling that could be included using a fuzzy term.
+
+Scoring methods:
+BM25F returned top results that were in my opinion the most relevant for my search terms. Using TF-IDF, there were some unexpected results in the top 5 (title: neural control of heartbeat in the leech and in some other invertebrates). Frequency produced the least relevant top hits.
+
+Part 4)
+
+Metrics
+• Accuracy@1: 0.384
+Proportion of cases where the correct PMID is the top hit.
+
+• Accuracy@5: 0.584
+Proportion of cases where the correct PMID appears within the top 5 hits.
+
+Evaluation Questions
+• What do these accuracy values reveal about your system performance?
+Accuracy@1 = 0.384: in 38.4% of the 1,000 test cases, the MeSH-term “sentence” retrieves the exact same PMID as the top-ranked result. 
+Accuracy@5 = 0.584: in 58.4% of cases, the correct PMID is among the top 5 hits. So 20% of the cases return the correct PMID in the top 2-5.
+Overall: the system is reasonably effective at finding the original document from MeSH terms using only title+abstract indexing, but it still fails in ~42% of cases even at top 5.
+
+• How do indexing choices and query formulation affect results?
+The correct PMID can only be returned if MeSH terms correlate strongly with the wording in title/abstract.
+What type of tokenization or stemming is used can be of influence for the result, in case the MeSH tern and the words in the title/abstract are not exact matched, but variants.
+
+• What improvements could be made?
+Removing very frequent MeSH terms (e.g. the top 10–50 "general" MeSH terms) could improve the prediction accuracy.
+Increase the weight of MeSH terms in the title over MeSH terms in the abstract
