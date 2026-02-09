@@ -12,7 +12,7 @@ TRAIN_SIZE = 200000
 TEST_SIZE = 1000
 TOP_K = 5
 
-index_dir = "mesh_pred_index"
+index_dir = "day1/mesh_pred_index"
 
 # Step 4.1: Load data and sample train/test
 def load_examples():

@@ -1,5 +1,5 @@
 Part 3)
-OR queries: Return a very high number of hits, but may not all be that relevant, as only on term needs to match
+OR queries: Return a very high number of hits, but may not all be that relevant, as only one of the terms needs to match
 AND queries: Very few matches, but very relevant, as they contains all terms.
 Phrase queries: When combined with AND, there were no matches, too restrictive. With OR, the matches are therefore all related to the "diabetes" term.
 
@@ -9,9 +9,27 @@ Fuzzy had the same results as exact match, as I didn't include any typing error 
 Scoring methods:
 BM25F returned top results that were in my opinion the most relevant for my search terms. Using TF-IDF, there were some unexpected results in the top 5 (title: neural control of heartbeat in the leech and in some other invertebrates). Frequency produced the least relevant top hits.
 
+Qeury terms are also important. I did another search, using the more scientific term "myocardial infarction" (MI) instead of "heart attack" (HA).
+With MI, the retrieval in "OR" mode is much lower, while retrieval in "AND" mode is much higher, compared to HA.
+The terms "myocardial" and "infarction" are both more relevant to the topic, while "heart" and "attack" can be used in much broader context. Looking at phrase search, HA with "AND" mode returned no results, while MI with "AND" returned the same number of results as the normal non-phrase search.
+
+
 Part 4)
 
 Metrics
+
+Fetch/Index 20-JAN-2026			Fetch/Index 7-FEB-2026
+=======================================	=======================================
+Total usable examples: 201000		Total usable examples: 201000
+Sampling train/test...			Sampling train/test...
+Train size: 200000			Train size: 200000
+Test size: 1000				Test size: 1000
+Building index (Title+Abstract only)...	Building index (Title+Abstract only)...
+Evaluating...				Evaluating...
+Test docs: 1000				Test docs: 1000
+Accuracy@1: 0.384			Accuracy@1: 0.305
+Accuracy@5: 0.584			Accuracy@5: 0.495
+
 • Accuracy@1: 0.384
 Proportion of cases where the correct PMID is the top hit.
 
@@ -31,3 +49,5 @@ What type of tokenization or stemming is used can be of influence for the result
 • What improvements could be made?
 Removing very frequent MeSH terms (e.g. the top 10–50 "general" MeSH terms) could improve the prediction accuracy.
 Increase the weight of MeSH terms in the title over MeSH terms in the abstract
+
+REMARK (07-FEB-2026): I ran the MeSH code again, after a fresh fetch and index, and got slightly different results, about 8-9% lower accuracies. It build a different examples list from the pickle file, so I got also differnt train and test sets now, despite using fixed random seed.

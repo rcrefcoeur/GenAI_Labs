@@ -1,0 +1,46 @@
+_wandb:
+    value:
+        cli_version: 0.24.1
+        e:
+            140nmczj6hckffvgbz74kc5w9ritodp9:
+                args:
+                    - run
+                    - train_flux_lora.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "14000500764672"
+                        used: "5160956006400"
+                email: rcrefcoeur@gmail.com
+                executable: E:\FHNW MSc in Data Science\Winter Week 4 - CO5 — Generative AI Models in Life Sciences\Day 4\flux_lora\.venv\Scripts\python.exe
+                gpu: NVIDIA GeForce GTX 1070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 1920
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce GTX 1070
+                      uuid: GPU-95d1d8dd-8d48-94f5-a475-a84a56994379
+                host: DESKTOP-O14AI9F
+                memory:
+                    total: "34244591616"
+                os: Windows-10-10.0.19045-SP0
+                program: -m __main__
+                python: CPython 3.13.5
+                root: E:\FHNW MSc in Data Science\Winter Week 4 - CO5 — Generative AI Models in Life Sciences\Day 4\flux_lora
+                startedAt: "2026-01-31T16:04:03.387181Z"
+                writerId: 140nmczj6hckffvgbz74kc5w9ritodp9
+        m: []
+        python_version: 3.13.5
+        t:
+            "3":
+                - 2
+                - 13
+            "4": 3.13.5
+            "5": 0.24.1
+            "8":
+                - 3
+            "12": 0.24.1
+            "13": windows-amd64

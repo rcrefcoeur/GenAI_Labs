@@ -1,0 +1,43 @@
+# Core ML / Diffusion stack
+torch
+torchvision
+diffusers
+transformers
+accelerate
+datasets
+peft
+triton
+sentencepiece
+ftfy
+
+# Data science / imaging
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+scikit-image
+tifffile
+umap-learn
+tqdm
+Pillow
+
+# Web / UI
+fastapi[standard]
+gradio
+starlette
+pydantic
+
+# Experiment tracking
+wandb
+
+# Storage / IO
+smart_open
+s3fs
+
+# Modal / infra
+modal
+
+# Notebooks / interactive
+ipython

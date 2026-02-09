@@ -14,7 +14,7 @@ schema = Schema(
     mesh=TEXT(stored=True),
 )
 
-index_dir = "pubmed_index"
+index_dir = "day1/pubmed_index"
 
 
 def get_index():

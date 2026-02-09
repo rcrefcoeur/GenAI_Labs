@@ -1,0 +1,38 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.13.5",
+  "startedAt":  "2026-01-31T16:22:46.520561Z",
+  "args":  [
+    "run",
+    "train_flux_lora.py"
+  ],
+  "program":  "-m __main__",
+  "email":  "rcrefcoeur@gmail.com",
+  "root":  "E:\\FHNW MSc in Data Science\\Winter Week 4 - CO5 — Generative AI Models in Life Sciences\\Day 4\\flux_lora",
+  "host":  "DESKTOP-O14AI9F",
+  "executable":  "E:\\FHNW MSc in Data Science\\Winter Week 4 - CO5 — Generative AI Models in Life Sciences\\Day 4\\flux_lora\\.venv\\Scripts\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce GTX 1070",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "14000500764672",
+      "used":  "5160956035072"
+    }
+  },
+  "memory":  {
+    "total":  "34244591616"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1070",
+      "memoryTotal":  "8589934592",
+      "cudaCores":  1920,
+      "architecture":  "Pascal",
+      "uuid":  "GPU-95d1d8dd-8d48-94f5-a475-a84a56994379"
+    }
+  ],
+  "cudaVersion":  "12.6",
+  "writerId":  "eylcfdcbo9pchjadq6rsydwrhchvus5y"
+}

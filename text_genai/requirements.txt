@@ -1,0 +1,63 @@
+# ========================
+# Core utilities
+# ========================
+tqdm>=4.66
+numpy>=1.26
+requests>=2.31
+python-dotenv>=1.0
+
+# ========================
+# PubMed parsing
+# ========================
+pubmed-parser>=0.3.1
+
+# ========================
+# Sparse IR (Whoosh)
+# ========================
+whoosh>=2.7.4
+
+# ========================
+# Data handling
+# ========================
+pandas>=2.2
+pyarrow>=15.0
+datasets>=2.17
+
+# ========================
+# Vector DB
+# ========================
+chromadb>=0.4.24
+
+# ========================
+# LangChain ecosystem (v1.x modular)
+# ========================
+langchain>=1.2.9
+langchain-core>=1.2.9
+langchain-classic>=0.1.0
+langchain-community>=0.0.20
+langchain-chroma>=0.1.0
+langchain-huggingface>=0.0.6
+langchain-text-splitters>=0.0.1
+
+# ========================
+# HuggingFace / LLM / embeddings
+# ========================
+transformers>=4.37
+torch>=2.1
+sentence-transformers>=2.3
+trl>=0.7.10
+unsloth>=2024.1
+bert-score>=0.3.13
+bitsandbytes  # May need to be installed manually, if CUDA issues
+accelerate    # May need to be installed manually, if CUDA issues
+
+# ========================
+# Document loaders
+# ========================
+unstructured>=0.12.0
+python-docx>=1.1.0
+
+# ========================
+# UI
+# ========================
+gradio>=4.15

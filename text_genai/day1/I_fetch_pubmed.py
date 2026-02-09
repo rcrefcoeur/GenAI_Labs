@@ -16,7 +16,7 @@ from collections import defaultdict
 num_workers = 6 # AMD Ryzen 7 4700U 8CPU/8 threads
 base_url = 'https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/'
 
-medline_folder = 'pmid2contents'
+medline_folder = 'day1/pmid2contents'
 os.makedirs(medline_folder, exist_ok=True)
 
 

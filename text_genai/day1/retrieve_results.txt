@@ -1,0 +1,672 @@
+
+==============================
+Scoring: BM25F
+Query: heart attack diabetes
+Mode: OR
+Hits: 17806 (showing 5)
+
+1. pmid=217254  score=44.2654
+   title: neurologic complications of diabetes mellitus: transient ischemic attack, stroke, and peripheral neuropathy .
+2. pmid=529862  score=34.3442
+   title: response of the autonomous nervous system of the heart in diabetes mellitus (author's transl) .
+3. pmid=206921  score=32.4716
+   title: hyperlipidemia, atherosclerosis, and diabetes .
+4. pmid=199096  score=31.7556
+   title: diabetes, blood lipids, and the role of obesity in coronary heart disease risk for women. the framingham study .
+5. pmid=459986  score=30.6194
+   title: heart disease, cancer and vehicle travel .
+
+==============================
+Scoring: TF_IDF
+Query: heart attack diabetes
+Mode: OR
+Hits: 17806 (showing 5)
+
+1. pmid=137164  score=83.088
+   title: incidence and manifestations of the heterozygosity of the gene causing diabetes .
+2. pmid=220645  score=79.3348
+   title: neural control of heartbeat in the leech and in some other invertebrates .
+3. pmid=520132  score=77.3885
+   title: standardization of definition, classification, and reporting in diabetes-related epidemiologic studies .
+4. pmid=520120  score=75.9104
+   title: diabetes mellitus and its vascular complications in japanese migrants on the island of hawaii .
+5. pmid=151947  score=71.4723
+   title: activities of hepatic enzymes in spontaneous diabetes rats produced by selective breeding of normal wistar rats .
+
+==============================
+Scoring: Frequency
+Query: heart attack diabetes
+Mode: OR
+Hits: 17806 (showing 5)
+
+1. pmid=220645  score=18.0
+   title: neural control of heartbeat in the leech and in some other invertebrates .
+2. pmid=233311  score=15.0
+   title: classically conditioned heart rate responses in macaca mulatta after beta-adrenergic, vagal and ganglionic blockade .
+3. pmid=125809  score=14.0
+   title: a clinicopathological study of the heart diseases in the aged. the morphological classification of the 1,000 consecutive autopsy cases .
+4. pmid=133675  score=14.0
+   title: effect of heart work and insulin on the incorporation of [14c]glucose into hexose phosphates, uridine diphosphate glucose and glycogen in the normal and insulin-deficient perfused rat heart under working and non-working conditions .
+5. pmid=137164  score=14.0
+   title: incidence and manifestations of the heterozygosity of the gene causing diabetes .
+
+==============================
+Scoring: BM25F
+Query: heart attack diabetes
+Mode: AND
+Hits: 3 (showing 3)
+
+1. pmid=217254  score=44.2654
+   title: neurologic complications of diabetes mellitus: transient ischemic attack, stroke, and peripheral neuropathy .
+2. pmid=47547  score=19.5519
+   title: potential effect on coronary-heart-disease morbidity of lowering the blood-cholesterol .
+3. pmid=375807  score=14.1876
+   title: the decreasing incidence of primary intracerebral hemorrhage: a population study .
+
+==============================
+Scoring: TF_IDF
+Query: heart attack diabetes
+Mode: AND
+Hits: 3 (showing 3)
+
+1. pmid=217254  score=69.1685
+   title: neurologic complications of diabetes mellitus: transient ischemic attack, stroke, and peripheral neuropathy .
+2. pmid=47547  score=22.3713
+   title: potential effect on coronary-heart-disease morbidity of lowering the blood-cholesterol .
+3. pmid=375807  score=17.7955
+   title: the decreasing incidence of primary intracerebral hemorrhage: a population study .
+
+==============================
+Scoring: Frequency
+Query: heart attack diabetes
+Mode: AND
+Hits: 3 (showing 3)
+
+1. pmid=217254  score=11.0
+   title: neurologic complications of diabetes mellitus: transient ischemic attack, stroke, and peripheral neuropathy .
+2. pmid=47547  score=4.0
+   title: potential effect on coronary-heart-disease morbidity of lowering the blood-cholesterol .
+3. pmid=375807  score=3.0
+   title: the decreasing incidence of primary intracerebral hemorrhage: a population study .
+
+==============================
+Scoring: BM25F
+Query: "heart attack" diabetes
+Mode: OR
+Hits: 2946 (showing 5)
+
+1. pmid=574589  score=27.0444
+   title: diabetes insipidus, diabetes mellitus, optic atrophy and labyrinthine deafness: the didmoad-syndrome (author's transl) .
+2. pmid=550702  score=26.6563
+   title: inheritance of childhood diabetes .
+3. pmid=522531  score=26.6489
+   title: unstable diabetes (author's transl) .
+4. pmid=598567  score=26.5208
+   title: hla antigens in sardinian patients with diabetes mellitus .
+5. pmid=185706  score=26.5156
+   title: diabetes mellitus in pheochromocytoma .
+
+==============================
+Scoring: TF_IDF
+Query: "heart attack" diabetes
+Mode: OR
+Hits: 2946 (showing 5)
+
+1. pmid=137164  score=83.088
+   title: incidence and manifestations of the heterozygosity of the gene causing diabetes .
+2. pmid=520132  score=77.3885
+   title: standardization of definition, classification, and reporting in diabetes-related epidemiologic studies .
+3. pmid=151947  score=71.4723
+   title: activities of hepatic enzymes in spontaneous diabetes rats produced by selective breeding of normal wistar rats .
+4. pmid=520120  score=71.4723
+   title: diabetes mellitus and its vascular complications in japanese migrants on the island of hawaii .
+5. pmid=187516  score=71.2556
+   title: postheparin plasma lipoprotein lipase and hepatic lipase in diabetes mellitus. relationship to plasma triglyceride metabolism .
+
+==============================
+Scoring: Frequency
+Query: "heart attack" diabetes
+Mode: OR
+Hits: 2946 (showing 5)
+
+1. pmid=137164  score=14.0
+   title: incidence and manifestations of the heterozygosity of the gene causing diabetes .
+2. pmid=520132  score=13.0
+   title: standardization of definition, classification, and reporting in diabetes-related epidemiologic studies .
+3. pmid=151947  score=12.0
+   title: activities of hepatic enzymes in spontaneous diabetes rats produced by selective breeding of normal wistar rats .
+4. pmid=520120  score=12.0
+   title: diabetes mellitus and its vascular complications in japanese migrants on the island of hawaii .
+5. pmid=187516  score=12.0
+   title: postheparin plasma lipoprotein lipase and hepatic lipase in diabetes mellitus. relationship to plasma triglyceride metabolism .
+
+==============================
+Scoring: BM25F
+Query: "heart attack" diabetes
+Mode: AND
+Hits: 0 (showing 0)
+
+
+==============================
+Scoring: TF_IDF
+Query: "heart attack" diabetes
+Mode: AND
+Hits: 0 (showing 0)
+
+
+==============================
+Scoring: Frequency
+Query: "heart attack" diabetes
+Mode: AND
+Hits: 0 (showing 0)
+
+
+==============================
+Scoring: BM25F
+Query: heart attack~ diabetes
+Mode: OR
+Hits: 18515 (showing 5)
+
+1. pmid=217254  score=44.2654
+   title: neurologic complications of diabetes mellitus: transient ischemic attack, stroke, and peripheral neuropathy .
+2. pmid=53328  score=39.5812
+   title: coronary heart-attacks in east london .
+3. pmid=578885  score=38.895
+   title: cooperative study of hospital frequency and character of transient ischemic attacks. vi. patients examined during an attack .
+4. pmid=529862  score=34.3442
+   title: response of the autonomous nervous system of the heart in diabetes mellitus (author's transl) .
+5. pmid=206921  score=32.4716
+   title: hyperlipidemia, atherosclerosis, and diabetes .
+
+==============================
+Scoring: TF_IDF
+Query: heart attack~ diabetes
+Mode: OR
+Hits: 18515 (showing 5)
+
+1. pmid=137164  score=83.088
+   title: incidence and manifestations of the heterozygosity of the gene causing diabetes .
+2. pmid=220645  score=79.3348
+   title: neural control of heartbeat in the leech and in some other invertebrates .
+3. pmid=520132  score=77.3885
+   title: standardization of definition, classification, and reporting in diabetes-related epidemiologic studies .
+4. pmid=89554  score=76.7741
+   title: biochemical prediction of gallstones early in an attack of acute pancreatitis .
+5. pmid=520120  score=75.9104
+   title: diabetes mellitus and its vascular complications in japanese migrants on the island of hawaii .
+
+==============================
+Scoring: Frequency
+Query: heart attack~ diabetes
+Mode: OR
+Hits: 18515 (showing 5)
+
+1. pmid=220645  score=18.0
+   title: neural control of heartbeat in the leech and in some other invertebrates .
+2. pmid=233311  score=15.0
+   title: classically conditioned heart rate responses in macaca mulatta after beta-adrenergic, vagal and ganglionic blockade .
+3. pmid=125809  score=14.0
+   title: a clinicopathological study of the heart diseases in the aged. the morphological classification of the 1,000 consecutive autopsy cases .
+4. pmid=133675  score=14.0
+   title: effect of heart work and insulin on the incorporation of [14c]glucose into hexose phosphates, uridine diphosphate glucose and glycogen in the normal and insulin-deficient perfused rat heart under working and non-working conditions .
+5. pmid=137164  score=14.0
+   title: incidence and manifestations of the heterozygosity of the gene causing diabetes .
+
+==============================
+Scoring: BM25F
+Query: heart attack~ diabetes
+Mode: AND
+Hits: 6 (showing 5)
+
+1. pmid=217254  score=44.2654
+   title: neurologic complications of diabetes mellitus: transient ischemic attack, stroke, and peripheral neuropathy .
+2. pmid=48835  score=24.2245
+   title: modification by propranolol of cardiovascular effects of induced hypoglycaemia .
+3. pmid=269508  score=21.3489
+   title: general medical concepts for the dental treatment of aging patients .
+4. pmid=158092  score=21.1716
+   title: the eeg and incidence of epilepsy in down's syndrome .
+5. pmid=47547  score=19.5519
+   title: potential effect on coronary-heart-disease morbidity of lowering the blood-cholesterol .
+
+==============================
+Scoring: TF_IDF
+Query: heart attack~ diabetes
+Mode: AND
+Hits: 6 (showing 5)
+
+1. pmid=217254  score=69.1685
+   title: neurologic complications of diabetes mellitus: transient ischemic attack, stroke, and peripheral neuropathy .
+2. pmid=48835  score=29.8506
+   title: modification by propranolol of cardiovascular effects of induced hypoglycaemia .
+3. pmid=269508  score=25.9962
+   title: general medical concepts for the dental treatment of aging patients .
+4. pmid=158092  score=25.8127
+   title: the eeg and incidence of epilepsy in down's syndrome .
+5. pmid=47547  score=22.3713
+   title: potential effect on coronary-heart-disease morbidity of lowering the blood-cholesterol .
+
+==============================
+Scoring: Frequency
+Query: heart attack~ diabetes
+Mode: AND
+Hits: 6 (showing 5)
+
+1. pmid=217254  score=11.0
+   title: neurologic complications of diabetes mellitus: transient ischemic attack, stroke, and peripheral neuropathy .
+2. pmid=48835  score=6.0
+   title: modification by propranolol of cardiovascular effects of induced hypoglycaemia .
+3. pmid=158092  score=5.0
+   title: the eeg and incidence of epilepsy in down's syndrome .
+4. pmid=269508  score=5.0
+   title: general medical concepts for the dental treatment of aging patients .
+5. pmid=47547  score=4.0
+   title: potential effect on coronary-heart-disease morbidity of lowering the blood-cholesterol .
+
+==============================
+Scoring: BM25F
+Query: myocardial infarction diabetes
+Mode: OR
+Hits: 8427 (showing 5)
+
+1. pmid=47305  score=60.5675
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=585685  score=54.9444
+   title: acute myocardial infarction following fluorescein angiography .
+3. pmid=177869  score=53.0957
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=456037  score=51.1221
+   title: myocardial infarction in dermatomyositis .
+5. pmid=390078  score=50.8585
+   title: electrocardiography in myocardial infarction .
+
+==============================
+Scoring: TF_IDF
+Query: myocardial infarction diabetes
+Mode: OR
+Hits: 8427 (showing 5)
+
+1. pmid=387998  score=175.9541
+   title: computer analysis of vectorcardiograms in myocardial infarction with special reference to polar vector and planarity of the qrs and t loops .
+2. pmid=165909  score=138.8841
+   title: technetium stannous pyrophosphate myocardial scintigrams in patients with chest pain of varying etiology .
+3. pmid=502164  score=129.9093
+   title: microfocal myocardial infarct as a variant of exacerbation of ischemic heart disease .
+4. pmid=320857  score=114.8893
+   title: new approach to interpretation of technetium-99m pyrophosphate scintigraphy in detection of acute myocardial infarction: clinical assessment of diagnostic accuracy .
+5. pmid=251169  score=114.3185
+   title: sexual activity in exercising patients after myocardial infarction and revascularization .
+
+==============================
+Scoring: Frequency
+Query: myocardial infarction diabetes
+Mode: OR
+Hits: 8427 (showing 5)
+
+1. pmid=387998  score=31.0
+   title: computer analysis of vectorcardiograms in myocardial infarction with special reference to polar vector and planarity of the qrs and t loops .
+2. pmid=165909  score=25.0
+   title: technetium stannous pyrophosphate myocardial scintigrams in patients with chest pain of varying etiology .
+3. pmid=502164  score=23.0
+   title: microfocal myocardial infarct as a variant of exacerbation of ischemic heart disease .
+4. pmid=320857  score=20.0
+   title: new approach to interpretation of technetium-99m pyrophosphate scintigraphy in detection of acute myocardial infarction: clinical assessment of diagnostic accuracy .
+5. pmid=251169  score=20.0
+   title: sexual activity in exercising patients after myocardial infarction and revascularization .
+
+==============================
+Scoring: BM25F
+Query: myocardial infarction diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=47305  score=60.5675
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=585685  score=54.9444
+   title: acute myocardial infarction following fluorescein angiography .
+3. pmid=177869  score=53.0957
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=598451  score=49.6935
+   title: the influence of diabetes mellitus and hypercorticism on the wound healing of experimental myocardial infarction in rats .
+5. pmid=506362  score=46.5281
+   title: coronary reserve, left ventricular function, and coronary risk factors in patients with myocardial infarction, but normal coronary arteries (author's transl) .
+
+==============================
+Scoring: TF_IDF
+Query: myocardial infarction diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=47305  score=81.9061
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=193114  score=81.0724
+   title: relationship between serum sex hormones and glucose, insulin and lipid abnormalities in men with myocardial infarction .
+3. pmid=138218  score=76.5067
+   title: relative role of factors associated with cerebral infarction and cerebral hemorrhage. a matched pair case-control study .
+4. pmid=177869  score=74.941
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+5. pmid=602350  score=70.3834
+   title: riskfactors and coronary morphology in 218 patients with myocardial infarction under 40 years of age (author's transl) .
+
+==============================
+Scoring: Frequency
+Query: myocardial infarction diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=193114  score=14.0
+   title: relationship between serum sex hormones and glucose, insulin and lipid abnormalities in men with myocardial infarction .
+2. pmid=47305  score=14.0
+   title: myocardial infarction and diabetes (author's transl) .
+3. pmid=177869  score=13.0
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=138218  score=13.0
+   title: relative role of factors associated with cerebral infarction and cerebral hemorrhage. a matched pair case-control study .
+5. pmid=602350  score=12.0
+   title: riskfactors and coronary morphology in 218 patients with myocardial infarction under 40 years of age (author's transl) .
+
+==============================
+Scoring: BM25F
+Query: "myocardial infarction" diabetes
+Mode: OR
+Hits: 4889 (showing 5)
+
+1. pmid=47305  score=60.5675
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=585685  score=54.9444
+   title: acute myocardial infarction following fluorescein angiography .
+3. pmid=177869  score=53.0957
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=456037  score=51.1221
+   title: myocardial infarction in dermatomyositis .
+5. pmid=390078  score=50.8585
+   title: electrocardiography in myocardial infarction .
+
+==============================
+Scoring: TF_IDF
+Query: "myocardial infarction" diabetes
+Mode: OR
+Hits: 4889 (showing 5)
+
+1. pmid=387998  score=175.9541
+   title: computer analysis of vectorcardiograms in myocardial infarction with special reference to polar vector and planarity of the qrs and t loops .
+2. pmid=165909  score=132.8225
+   title: technetium stannous pyrophosphate myocardial scintigrams in patients with chest pain of varying etiology .
+3. pmid=502164  score=123.8476
+   title: microfocal myocardial infarct as a variant of exacerbation of ischemic heart disease .
+4. pmid=320857  score=114.8893
+   title: new approach to interpretation of technetium-99m pyrophosphate scintigraphy in detection of acute myocardial infarction: clinical assessment of diagnostic accuracy .
+5. pmid=251169  score=114.3185
+   title: sexual activity in exercising patients after myocardial infarction and revascularization .
+
+==============================
+Scoring: Frequency
+Query: "myocardial infarction" diabetes
+Mode: OR
+Hits: 4889 (showing 5)
+
+1. pmid=387998  score=31.0
+   title: computer analysis of vectorcardiograms in myocardial infarction with special reference to polar vector and planarity of the qrs and t loops .
+2. pmid=165909  score=24.0
+   title: technetium stannous pyrophosphate myocardial scintigrams in patients with chest pain of varying etiology .
+3. pmid=502164  score=22.0
+   title: microfocal myocardial infarct as a variant of exacerbation of ischemic heart disease .
+4. pmid=320857  score=20.0
+   title: new approach to interpretation of technetium-99m pyrophosphate scintigraphy in detection of acute myocardial infarction: clinical assessment of diagnostic accuracy .
+5. pmid=251169  score=20.0
+   title: sexual activity in exercising patients after myocardial infarction and revascularization .
+
+==============================
+Scoring: BM25F
+Query: "myocardial infarction" diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=47305  score=60.5675
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=585685  score=54.9444
+   title: acute myocardial infarction following fluorescein angiography .
+3. pmid=177869  score=53.0957
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=598451  score=49.6935
+   title: the influence of diabetes mellitus and hypercorticism on the wound healing of experimental myocardial infarction in rats .
+5. pmid=506362  score=46.5281
+   title: coronary reserve, left ventricular function, and coronary risk factors in patients with myocardial infarction, but normal coronary arteries (author's transl) .
+
+==============================
+Scoring: TF_IDF
+Query: "myocardial infarction" diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=47305  score=81.9061
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=193114  score=81.0724
+   title: relationship between serum sex hormones and glucose, insulin and lipid abnormalities in men with myocardial infarction .
+3. pmid=177869  score=74.941
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=602350  score=70.3834
+   title: riskfactors and coronary morphology in 218 patients with myocardial infarction under 40 years of age (author's transl) .
+5. pmid=138218  score=69.6257
+   title: relative role of factors associated with cerebral infarction and cerebral hemorrhage. a matched pair case-control study .
+
+==============================
+Scoring: Frequency
+Query: "myocardial infarction" diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=193114  score=14.0
+   title: relationship between serum sex hormones and glucose, insulin and lipid abnormalities in men with myocardial infarction .
+2. pmid=47305  score=14.0
+   title: myocardial infarction and diabetes (author's transl) .
+3. pmid=177869  score=13.0
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=138218  score=12.0
+   title: relative role of factors associated with cerebral infarction and cerebral hemorrhage. a matched pair case-control study .
+5. pmid=602350  score=12.0
+   title: riskfactors and coronary morphology in 218 patients with myocardial infarction under 40 years of age (author's transl) .
+
+==============================
+Scoring: BM25F
+Query: myocardial infarction~ diabetes
+Mode: OR
+Hits: 8461 (showing 5)
+
+1. pmid=47305  score=60.5675
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=424994  score=58.2463
+   title: myocardial infarction following carotid endarterectomy: a review of 683 operations .
+3. pmid=116618  score=55.8731
+   title: outcome of myocardial infarctions complicated by heart conduction disorders in the acute phase .
+4. pmid=534466  score=55.3453
+   title: the immediate care of threatening myocardial infarction in general practice .
+5. pmid=47077  score=55.3208
+   title: immediate prognosis in recurrent myocardial infarction .
+
+==============================
+Scoring: TF_IDF
+Query: myocardial infarction~ diabetes
+Mode: OR
+Hits: 8461 (showing 5)
+
+1. pmid=387998  score=175.9541
+   title: computer analysis of vectorcardiograms in myocardial infarction with special reference to polar vector and planarity of the qrs and t loops .
+2. pmid=165909  score=147.1097
+   title: technetium stannous pyrophosphate myocardial scintigrams in patients with chest pain of varying etiology .
+3. pmid=502164  score=129.9093
+   title: microfocal myocardial infarct as a variant of exacerbation of ischemic heart disease .
+4. pmid=308374  score=120.7329
+   title: coronary surgery for unstable angina pectoris. incidence and mortality of perioperative myocardial infarction .
+5. pmid=453046  score=116.4336
+   title: prognosis after initial myocardial infarction: the framingham study .
+
+==============================
+Scoring: Frequency
+Query: myocardial infarction~ diabetes
+Mode: OR
+Hits: 8461 (showing 5)
+
+1. pmid=387998  score=31.0
+   title: computer analysis of vectorcardiograms in myocardial infarction with special reference to polar vector and planarity of the qrs and t loops .
+2. pmid=165909  score=26.0
+   title: technetium stannous pyrophosphate myocardial scintigrams in patients with chest pain of varying etiology .
+3. pmid=502164  score=23.0
+   title: microfocal myocardial infarct as a variant of exacerbation of ischemic heart disease .
+4. pmid=308374  score=20.0
+   title: coronary surgery for unstable angina pectoris. incidence and mortality of perioperative myocardial infarction .
+5. pmid=320857  score=20.0
+   title: new approach to interpretation of technetium-99m pyrophosphate scintigraphy in detection of acute myocardial infarction: clinical assessment of diagnostic accuracy .
+
+==============================
+Scoring: BM25F
+Query: myocardial infarction~ diabetes
+Mode: AND
+Hits: 57 (showing 5)
+
+1. pmid=47305  score=60.5675
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=424994  score=58.2463
+   title: myocardial infarction following carotid endarterectomy: a review of 683 operations .
+3. pmid=585685  score=54.9444
+   title: acute myocardial infarction following fluorescein angiography .
+4. pmid=177869  score=53.0957
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+5. pmid=30324  score=50.8909
+   title: survived brain infarction in old age - clinical and morphological findings. ii. risk factors (author's transl) .
+
+==============================
+Scoring: TF_IDF
+Query: myocardial infarction~ diabetes
+Mode: AND
+Hits: 57 (showing 5)
+
+1. pmid=47305  score=81.9061
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=193114  score=81.0724
+   title: relationship between serum sex hormones and glucose, insulin and lipid abnormalities in men with myocardial infarction .
+3. pmid=138218  score=76.5067
+   title: relative role of factors associated with cerebral infarction and cerebral hemorrhage. a matched pair case-control study .
+4. pmid=177869  score=74.941
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+5. pmid=602350  score=70.3834
+   title: riskfactors and coronary morphology in 218 patients with myocardial infarction under 40 years of age (author's transl) .
+
+==============================
+Scoring: Frequency
+Query: myocardial infarction~ diabetes
+Mode: AND
+Hits: 57 (showing 5)
+
+1. pmid=193114  score=14.0
+   title: relationship between serum sex hormones and glucose, insulin and lipid abnormalities in men with myocardial infarction .
+2. pmid=47305  score=14.0
+   title: myocardial infarction and diabetes (author's transl) .
+3. pmid=177869  score=13.0
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=138218  score=13.0
+   title: relative role of factors associated with cerebral infarction and cerebral hemorrhage. a matched pair case-control study .
+5. pmid=602350  score=12.0
+   title: riskfactors and coronary morphology in 218 patients with myocardial infarction under 40 years of age (author's transl) .
+
+==============================
+Scoring: BM25F
+Query: ("heart attack" OR "myocardial infarction") diabetes
+Mode: OR
+Hits: 4894 (showing 5)
+
+1. pmid=47305  score=60.5675
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=585685  score=54.9444
+   title: acute myocardial infarction following fluorescein angiography .
+3. pmid=177869  score=53.0957
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=456037  score=51.1221
+   title: myocardial infarction in dermatomyositis .
+5. pmid=390078  score=50.8585
+   title: electrocardiography in myocardial infarction .
+
+==============================
+Scoring: TF_IDF
+Query: ("heart attack" OR "myocardial infarction") diabetes
+Mode: OR
+Hits: 4894 (showing 5)
+
+1. pmid=387998  score=175.9541
+   title: computer analysis of vectorcardiograms in myocardial infarction with special reference to polar vector and planarity of the qrs and t loops .
+2. pmid=165909  score=132.8225
+   title: technetium stannous pyrophosphate myocardial scintigrams in patients with chest pain of varying etiology .
+3. pmid=502164  score=123.8476
+   title: microfocal myocardial infarct as a variant of exacerbation of ischemic heart disease .
+4. pmid=320857  score=114.8893
+   title: new approach to interpretation of technetium-99m pyrophosphate scintigraphy in detection of acute myocardial infarction: clinical assessment of diagnostic accuracy .
+5. pmid=251169  score=114.3185
+   title: sexual activity in exercising patients after myocardial infarction and revascularization .
+
+==============================
+Scoring: Frequency
+Query: ("heart attack" OR "myocardial infarction") diabetes
+Mode: OR
+Hits: 4894 (showing 5)
+
+1. pmid=387998  score=31.0
+   title: computer analysis of vectorcardiograms in myocardial infarction with special reference to polar vector and planarity of the qrs and t loops .
+2. pmid=165909  score=24.0
+   title: technetium stannous pyrophosphate myocardial scintigrams in patients with chest pain of varying etiology .
+3. pmid=502164  score=22.0
+   title: microfocal myocardial infarct as a variant of exacerbation of ischemic heart disease .
+4. pmid=320857  score=20.0
+   title: new approach to interpretation of technetium-99m pyrophosphate scintigraphy in detection of acute myocardial infarction: clinical assessment of diagnostic accuracy .
+5. pmid=251169  score=20.0
+   title: sexual activity in exercising patients after myocardial infarction and revascularization .
+
+==============================
+Scoring: BM25F
+Query: ("heart attack" OR "myocardial infarction") diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=47305  score=60.5675
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=585685  score=54.9444
+   title: acute myocardial infarction following fluorescein angiography .
+3. pmid=177869  score=53.0957
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=598451  score=49.6935
+   title: the influence of diabetes mellitus and hypercorticism on the wound healing of experimental myocardial infarction in rats .
+5. pmid=506362  score=46.5281
+   title: coronary reserve, left ventricular function, and coronary risk factors in patients with myocardial infarction, but normal coronary arteries (author's transl) .
+
+==============================
+Scoring: TF_IDF
+Query: ("heart attack" OR "myocardial infarction") diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=47305  score=81.9061
+   title: myocardial infarction and diabetes (author's transl) .
+2. pmid=193114  score=81.0724
+   title: relationship between serum sex hormones and glucose, insulin and lipid abnormalities in men with myocardial infarction .
+3. pmid=177869  score=74.941
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=602350  score=70.3834
+   title: riskfactors and coronary morphology in 218 patients with myocardial infarction under 40 years of age (author's transl) .
+5. pmid=138218  score=69.6257
+   title: relative role of factors associated with cerebral infarction and cerebral hemorrhage. a matched pair case-control study .
+
+==============================
+Scoring: Frequency
+Query: ("heart attack" OR "myocardial infarction") diabetes
+Mode: AND
+Hits: 55 (showing 5)
+
+1. pmid=193114  score=14.0
+   title: relationship between serum sex hormones and glucose, insulin and lipid abnormalities in men with myocardial infarction .
+2. pmid=47305  score=14.0
+   title: myocardial infarction and diabetes (author's transl) .
+3. pmid=177869  score=13.0
+   title: myocardial infarction and estrogen therapy in post-menopausal women .
+4. pmid=138218  score=12.0
+   title: relative role of factors associated with cerebral infarction and cerebral hemorrhage. a matched pair case-control study .
+5. pmid=602350  score=12.0
+   title: riskfactors and coronary morphology in 218 patients with myocardial infarction under 40 years of age (author's transl) .
