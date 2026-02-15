@@ -1,0 +1,22 @@
+# Numerical stack (Python 3.12 compatible)
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+
+# Plotting
+matplotlib>=3.8
+seaborn>=0.13
+
+# Bioinformatics
+biopython>=1.83
+
+# Structural / geometry analysis
+mdanalysis>=2.6
+
+# Jupyter
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# Utilities
+tqdm>=4.66
+python-dotenv

@@ -1,0 +1,11 @@
+RUN TERMINATED — SCENARIO: 02_high_W_struct
+
+No valid multi-mutation variants could be generated.
+
+Reason:
+- All curated single mutations are clustered in WT space
+- MIN_POSITION_SEPARATION = 5
+- N_MUTATIONS_PER_VARIANT = 2
+
+This is expected behavior for a locally saturated design space.
+No downstream analysis was executed.

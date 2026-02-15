@@ -8,7 +8,6 @@
 **/pubmed_index/
 **/mesh_pred_index/
 **/output/
-**/project/
 **/.venv/
 .venv/
 */.venv/
@@ -17,3 +16,4 @@ __pycache__/
 *.pt
 *.ckpt
 *.bin
+**/a3m/
