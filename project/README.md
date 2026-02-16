@@ -111,6 +111,7 @@ N15P_Y157D was most often a top 20 contender. N15P appears 8 times in the overal
 <img src="analysis\filtered\figures\robust_variants.png" alt="Robust variants, filtered">
 
 Different scenarios show distinct frequencies of residue use, and while some variants were present in multiple scenarios, in the four scenarios, meaning four top 20's, there should be 80 variants in total. The little overlap of variants between scenarios means that each scenario illustrated here resulted in many new top 20 variants.
+
 ---
 For the top 20 variants, structures were generated, using OpenFold2 on NVIDIA NIM (https://build.nvidia.com/openfold/openfold2). Below are the metrics of the base case structures. The catalytic triad geometry appears well preserved in every variant. The variants are all structurally closer to other variants, than they are to the target structure, and with a nearest variant RMSD cutof of 0.8, the variants of the base case split into two structural basins.
 
@@ -257,4 +258,5 @@ Generative AI for enzyme design and biocatalysis. *arXiv*. Available at: [https:
 
 **Rörsch, A., Berends, F., Bartlema, H.C. and Stevens, W.F. (1971)**
 The isolation and properties of *Pseudomonas* strains growing on atropine and producing atropinesterase. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen. Series C: Biological and Medical Sciences*, **74**(2), pp. 132–147.
+
 
