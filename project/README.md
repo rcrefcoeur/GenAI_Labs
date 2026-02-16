@@ -1,4 +1,4 @@
-# Improving atropinesterase solubility using …
+# Improving atropinesterase solubility using structure- and ESM-based mutation scoring
 ## Introduction
 Atropine is an alkaloid toxin produced by plants in the nightshade family, particularly Atropa belladonna (deadly nightshade), Datura stramonium (jimsonweed), and Mandragora officinarum (mandrake).  They produce it as a way of defense against insects and herbivores. Plants producing atropine may grow in between agricultural crops, and end up in harvested produce, such as cereals. At that point it is no longer easily separated, and a too high atropine concentration means the harvest is no longer valid for human consumption, thus leading to economic loss. 
 
@@ -258,5 +258,6 @@ Generative AI for enzyme design and biocatalysis. *arXiv*. Available at: [https:
 
 **Rörsch, A., Berends, F., Bartlema, H.C. and Stevens, W.F. (1971)**
 The isolation and properties of *Pseudomonas* strains growing on atropine and producing atropinesterase. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen. Series C: Biological and Medical Sciences*, **74**(2), pp. 132–147.
+
 
 
