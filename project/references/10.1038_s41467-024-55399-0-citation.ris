@@ -1,0 +1,20 @@
+TY  - JOUR
+AU  - Landwehr, Grant M.
+AU  - Bogart, Jonathan W.
+AU  - Magalhaes, Carol
+AU  - Hammarlund, Eric G.
+AU  - Karim, Ashty S.
+AU  - Jewett, Michael C.
+PY  - 2025
+DA  - 2025/01/20
+TI  - Accelerated enzyme engineering by machine-learning guided cell-free expression
+JO  - Nature Communications
+SP  - 865
+VL  - 16
+IS  - 1
+AB  - Enzyme engineering is limited by the challenge of rapidly generating and using large datasets of sequence-function relationships for predictive design. To address this challenge, we develop a machine learning (ML)-guided platform that integrates cell-free DNA assembly, cell-free gene expression, and functional assays to rapidly map fitness landscapes across protein sequence space and optimize enzymes for multiple, distinct chemical reactions. We apply this platform to engineer amide synthetases by evaluating substrate preference for 1217 enzyme variants in 10,953 unique reactions. We use these data to build augmented ridge regression ML models for predicting amide synthetase variants capable of making 9 small molecule pharmaceuticals. Over these nine compounds, ML-predicted enzyme variants demonstrate 1.6- to 42-fold improved activity relative to the parent. Our ML-guided, cell-free framework promises to accelerate enzyme engineering by enabling iterative exploration of protein sequence space to build specialized biocatalysts in parallel.
+SN  - 2041-1723
+UR  - https://doi.org/10.1038/s41467-024-55399-0
+DO  - 10.1038/s41467-024-55399-0
+ID  - Landwehr2025
+ER  - 
