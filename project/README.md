@@ -1,21 +1,21 @@
 # Improving atropinesterase solubility using structure- and ESM-based mutation scoring
 ## Introduction
-Atropine is an alkaloid toxin produced by plants in the nightshade family, particularly Atropa belladonna (deadly nightshade), Datura stramonium (jimsonweed), and Mandragora officinarum (mandrake).  They produce it as a way of defense against insects and herbivores. Plants producing atropine may grow in between agricultural crops, and end up in harvested produce, such as cereals. At that point it is no longer easily separated, and a too high atropine concentration means the harvest is no longer valid for human consumption, thus leading to economic loss. 
+Atropine is an alkaloid toxin produced by plants in the nightshade family, particularly *Atropa belladonna* (deadly nightshade), *Datura stramonium* (jimsonweed), and *Mandragora officinarum* (mandrake).  They produce it as a way of defense against insects and herbivores. Plants producing atropine may grow in between agricultural crops, and end up in harvested produce, such as cereals. At that point it is no longer easily separated, and a too high atropine concentration means the harvest is no longer valid for human consumption, thus leading to economic loss. 
 
 <div style="background-color: white; display: inline-block; padding: 4px;">
   <img src="images/Atropine.svg" width="350" alt="Atropine structure">
 </div>
 
-(https://commons.wikimedia.org/wiki/File:Atropine.svg)
+([image source: Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Atropine.svg))
 
-Medically, atropine is used as an antagonist to muscarinic acetylcholine receptors, and as an antidote in case of poisoning by sarin, a highly lethal nerve agent. Between the late 1950s and early 1980s, in the midst of the cold war, many nations were stockpiling large amounts of sarin, fueling the interest in atropine and its enzymatic degradation. Some soil bacteria have evolved with the ability to degrade and use atropine as a carbon (and some even as nitrogen) source. A strain of *P.putida* was found to have an atropinesterase enzyme, catalyzing the hydrolysis of atropine into tropine and tropic acid (Rörsch *et al.* 1971). The peptide sequence was established by Edman degradation. By the time genomics and proteomics techniques were commonplace, the research interest in atropinesterases had already dissipated, resulting in the absence of curated genomic sequences of atropinesterases in present databases.
+Medically, atropine is used as an antagonist to muscarinic acetylcholine receptors, and as an antidote in case of poisoning by sarin, a highly lethal nerve agent. Between the late 1950s and early 1980s, in the midst of the cold war, many nations were stockpiling large amounts of sarin, fueling the interest in atropine and its enzymatic degradation. Some soil bacteria have evolved with the ability to degrade and use atropine as a carbon (and some even as nitrogen) source. A strain of *P. putida* was found to have an atropinesterase enzyme, catalyzing the hydrolysis of atropine into tropine and tropic acid (Rörsch *et al.* 1971). The peptide sequence was established by Edman degradation. By the time genomics and proteomics techniques were commonplace, the research interest in atropinesterases had already dissipated, resulting in the absence of curated genomic sequences of atropinesterases in present databases.
 
 Atropinesterases are part of a broader family of enzymes, the alpha/beta hydrolases. Distinctive for this class of enzymes is the catalytic triad, consisting of three distinct amino acids: a nucleophile, an acid, and a base (Bartholomew *et al.* 1996). In a recent project I experimentally characterized the *Pseudomonas putida* atropinesterase, and confirmed its atropinesterase activity. By homology search, five more atropinesterase homologs were identified.
 
-During these experiments, it was observed that all atropinesterases were prone to form aggregates, which is a major cause for activity loss. Enhancing the solubility of enzymes is one method to reduce aggregate formation, thus improving their longevity. Among the evaluated homologs, Acinetobacter tandoii atropinesterase had the highest activity. The objective of this project is to improve this enzyme, further by targeted mutagenesis.
+During these experiments, it was observed that all atropinesterases were prone to form aggregates, which is a major cause for activity loss. Enhancing the solubility of enzymes is one method to reduce aggregate formation, thus improving their longevity. Among the evaluated homologs, *Acinetobacter tandoii* atropinesterase had the highest activity. The objective of this project is to improve this enzyme, further by targeted mutagenesis.
 
 ## Related work, problems, or tasks in the literature
-Enzyme engineering used to be a labor-intensive undertaking. With recent advancements in artificial intelligence, also this field has become more data driven, and faster paced. Structure prediction models, machine learning and reinforcement learning have allowed researchers to improve enzymes, and even create de novo enzymes with little cash or time investment (Khan and Khan, 2026; Middendorf and Ferruz, 2026). Online platforms for enzyme engineering are being hosted, for example: EnzymeMiner, a web server for automated screening and annotation of diverse family members that enables selection of hits for wet-lab experiments (Hon et al. 2020). Ideally this is coupled with a high throughput experimental platform where generated can directly be synthesized, expressed and tested (Landwehr *et al,* 2025). A step by step artificial intelligence-based workflow for enzyme optimization is described by Khan and Khan (2026).
+Enzyme engineering used to be a labor-intensive undertaking. With recent advancements in artificial intelligence, also this field has become more data driven, and faster paced. Structure prediction models, machine learning and reinforcement learning have allowed researchers to improve enzymes, and even create de novo enzymes with little cash or time investment (Khan and Khan, 2026; Middendorf and Ferruz, 2026). Online platforms for enzyme engineering are being hosted, for example: EnzymeMiner, a web server for automated screening and annotation of diverse family members that enables selection of hits for wet-lab experiments (Hon et al. 2020). Ideally this is coupled with a high throughput experimental platform where generated molecules can directly be synthesized, expressed and tested (Landwehr *et al,* 2025). A step by step artificial intelligence-based workflow for enzyme optimization is described by Khan and Khan (2026).
 
 ## Explain the task to be solved
 - Identify which parts of the enzyme are essential for its functioning (the catalytic triad, and other residues conserved within the atropinesterases).
@@ -32,13 +32,13 @@ Enzyme engineering used to be a labor-intensive undertaking. With recent advance
 2.	A multiple sequence alignment of the 6 identified atropinesterases `fasta/atropinesterases_alignment.a3m`
 3.	AlphaFold2 models of 2 of the 6 atropinesterases `pdb/AF-A0A2D9RK65-F1-model_v6.pdb` `pdb/AF-A0A4R9PVA8-F1-model_v6.pdb`
 4.	The multiple sequence alignment files that were used to make these models (containing many other alpha beta hydrolases, mostly not atropinesterases) `fasta/AF-A0A2D9RK65-F1-msa_v6.a3m` `fasta/AF-A0A4R9PVA8-F1-msa_v6.a3m`
-5.	The A tandoii atropinesterase multiple sequence alignment generated by moving to the top position (query) in two above mentioned a3m files `fasta/AF-A0A515BEI4-F1-msa_v6.a3m` the above mentioned (4) A0A2D9RK65 a3m file.
-6.	An AlphaFold2 model of A. tandoii atropinesterase `pdb/A0A515BEI4_AlphaFold2_model_2_seed_000.pdb`, which I generated on (https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb), using the above mentioned (5) A tandoii atropinesterase sequence a3m file. 
+5.	The *A. tandoii* atropinesterase multiple sequence alignment generated by moving to the top position (query) in two above mentioned a3m files `fasta/AF-A0A515BEI4-F1-msa_v6.a3m` the above mentioned (4) A0A2D9RK65 a3m file.
+6.	An AlphaFold2 model of *A. tandoii* atropinesterase `pdb/A0A515BEI4_AlphaFold2_model_2_seed_000.pdb`, which I generated on (https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb), using the above mentioned (5) *A. tandoii* atropinesterase sequence a3m file. 
 
 ## Preprocess data and explain the process
 In the dataset, one could consider parts 2, 5, and 6 as already belonging to the data preprocessing, using parts 1, 4 of the raw data. The next preprocessing step is annotating the residues that make up the enzyme.
 
-In cell 3 of the jpynb, the multiple sequence alignment of the 6 atropinesterases is loaded, and to identify conserved amino acids. In cell 4 conserved amino acids and also explicitly the amino acids that make up the catalytic triad of the target enzyme are assigned a locked status, meaning they are not to be considered for mutation.
+In cell 3 of the ipynb, the multiple sequence alignment of the 6 atropinesterases is loaded, and used to identify conserved amino acids. In cell 4 conserved amino acids and also explicitly the amino acids that make up the catalytic triad of the target enzyme are assigned a locked status, meaning they are not to be considered for mutation.
 
 In cells 7 and 8, the 3d structures of the proteins are loaded, and mapped to the sequence alignment. In cells 9 and 10, it is established that the structural models we use have a high per-residue local confidence, using the predicted local distance difference test (pLDDT), and that the three homologous models are folded likewise, by calculating the root mean square deviation (RMSD) between aligned residues.
 
@@ -57,20 +57,20 @@ Cell 14, and 15 combine alignment with structure to identify structurally unstab
 ESM mutation search (cell 17) is used for mutation proposal. The list of mutable residues is scanned in a *plausibility filter*. From a large database of protein sequences, the model has learned the statistical rules that allow it to assess the proposed mutations in the context of the local sequence of amino acids. I have excluded mutations to cysteine from being proposed, as these mutation could lead to two proteins forming covalent cystine bridges, which would increase aggregation probability. Each mutation will receive a ΔlogP score. If ΔlogP is close to 0, the proposed mutation is equally plausible as the wild type residue. The more negative the ΔlogP is, the more it would go against the evolutionary conventions, while a more positive ΔlogP means that the mutation would make the protein more aligned with common sequence patterns. 
 
 ESM ΔlogP shows a normal distribution, skewed to positive ΔlogP, indicating that the initial filtering already prevents many unfavorable mutations from being considered:
-<img src="images\ESM_dlogP_basecase.png" alt="ESM ΔlogP">
+<img src="images/ESM_dlogP_basecase.png" alt="ESM ΔlogP">
 
 In cell 18, mutations with negative ΔlogP score are filtered out, and the mutations are classified by their chemical characteristics. Cell 19 combines the ESM `delta_logp` with the structure derived `mutation_priority_score`, using the weights defined in cell 1: `W_ESM` and `W_STRUCT`. This allows to rank mutations based on both metrics. In cell 20, for each position in the target, only the top three mutations are selected. Also mutations with a low final score are removed. 
 
-Cell 21 uses the list with remaining mutations to make double mutation variants. To avoid destabilizing the local structure, the two mutations must be at least 5 residues apart from each other. The double mutation variants are sorted (descending) by the mean final score of the two individual single mutations. The top 20 variants with a mean score of at least 0.5 are then selected (cell 22). These variants are stored in a `.fasta` file (cell 23), and variant an `.a3m` file is generated, containing the alignment of the variant with every know close and distant homolog (cell 24). 
+Cell 21 uses the list with remaining mutations to make double mutation variants. To avoid destabilizing the local structure, the two mutations must be at least 5 residues apart from each other. The double mutation variants are sorted (descending) by the mean final score of the two individual single mutations. The top 20 variants with a mean score of at least 0.5 are then selected (cell 22). These variants are stored in a `.fasta` file (cell 23), and for each variant an `.a3m` file is generated, containing the alignment of the variant with every known close and distant homolog (cell 24). 
 
 Cell 25 uploads the generated `.a3m` files of each variant to (https://health.api.nvidia.com/v1/biology/openfold/) for online structure prediction. As the files are around 7 MB each, there is a waiting time between each upload, to prevent overloading the server. For the folding of the different scenarios, there is a check to see if the structure for the same set of mutations has already been generated previously, so they can be copied with new metadata, and repeated structure prediction is avoided.
 
 Cells 25 and 26 perform different metrics on the generated variant structures. Included are the distances between the residues in the catalytic triad, and the root mean square deviation (RMSD). The RMSD is used to measure the similarity of two structures. The distances between each residues Cα atomic coordinates after optimal rigid body superposition are combined into a single RMSD value that quantifies the overall structural deviation of the entire protein backbone relative to the reference structure:
 <div style="background-color: white; display: inline-block; padding: 4px;">
-  <img src="images\RMSD.svg" width="200" alt="RMSD formula">
+  <img src="images/RMSD.svg" width="200" alt="RMSD formula">
 </div>
 
-(https://wikimedia.org/api/rest_v1/media/math/render/svg/bf0d0f19a819f1744ab3ef2f740cac54e69d6a23)
+([formula image source: Wikimedia](https://wikimedia.org/api/rest_v1/media/math/render/svg/bf0d0f19a819f1744ab3ef2f740cac54e69d6a23))
 
 RMSD is measured between variant and target, and between the variants amongst themselves. With an RMSD cutoff, variant basins with close structural similarity can be established. These structural basins are visualized in cell 28.
 
@@ -86,34 +86,34 @@ It has to be taken into account that every .pdb file in this study, whether raw 
 I have used several threshold and scoring methods in different scenarios, to evaluate their impact on which mutants would be selected in the top 20 for folding and further analysis (cell 0). 
 - I tried out different values for `MIN_NEIGHBORS_BURIED` to change the likelihood for residues to get the `is_surface_residue status`. One with lower threshold leading to less residues being identified as surface residues, and one with a higher threshold, leading to more residues identified as being on the surface (number of surface residues in target: basecase 152, strict 83, tolerant 230).
 -	I tried changing the weighting between my target structure, and the two Uniprot/AlphaFold2 structures (`SEQ_WEIGHTS`) to steer their influence on mutable residue selection, but as it turned out, between these highly similar structures, there is no difference in selectivity.
--	I varied `W_ESM` and `W_STRUCT`, to establish in what extent the ESM Δlog P score and the priority score based on structural metrics, influencing respectively which mutations are evolutionarily preferred, and which residues are preferably first mutated. In the scenario with a high `W_struct`, after filtering the single mutations, there were only 9 mutations selected for generating double mutation variants, but all their residues were within a narrow range (residue numbers 167-171), violating the rule that the two mutations must be at least five bases apart from each other, in order to prevent locally destabilizing the structure.
+-	I varied `W_ESM` and `W_STRUCT`, to establish to what extent the ESM Δlog P score and the priority score based on structural metrics, influencing respectively which mutations are evolutionarily preferred, and which residues are preferably first mutated. In the scenario with a high `W_struct`, after filtering the single mutations, there were only 9 mutations selected for generating double mutation variants, but all their residues were within a narrow range (residue numbers 167-171), violating the rule that the two mutations must be at least five bases apart from each other, in order to prevent locally destabilizing the structure.
 
 ## Explain and visualize your results
 
 Different scenarios (hyperparameter tunings) propose different combinations of double mutations. We can compare the proposed mutations for each scenario in a similarity heatmap.
 
-<img src="analysis\figures\scenario_similarity_heatmap.png" alt="Similarity Heatmap, non-filtered">  
+<img src="analysis/figures/scenario_similarity_heatmap.png" alt="Similarity Heatmap, non-filtered">  
 
-It directly becomes clear that scenarios 00, 03, 04, 05, and 07 al generated the same set of variants; the settings of the alternate scenarios did not alter the outcome compared to the base case. To prevent skewing the statistics, I will exclude the duplicate scenarios, so this would be the new similarity heatmap:
+It directly becomes clear that scenarios 00, 03, 04, 05, and 07 all generated the same set of variants; the settings of the alternate scenarios did not alter the outcome compared to the base case. To prevent skewing the statistics, I will exclude the duplicate scenarios, so this would be the new similarity heatmap:
 
-<img src="analysis\filtered\figures\scenario_similarity_heatmap.png" alt="Similarity Heatmap, filtered">  
+<img src="analysis/filtered/figures/scenario_similarity_heatmap.png" alt="Similarity Heatmap, filtered">  
 
 Seven residues were dominating the top 20 in these four scenarios: 
 
-<img src="analysis\filtered\figures\dominant_residues.png" alt="Dominant residues, filtered">
+<img src="analysis/filtered/figures/dominant_residues.png" alt="Dominant residues, filtered">
 
 Still, different residues are preferred depending on the scenario:
 
-<img src="analysis\filtered\figures\scenario_residue_heatmap.png" alt="Scenario residue heatmap, filtered">
+<img src="analysis/filtered/figures/scenario_residue_heatmap.png" alt="Scenario residue heatmap, filtered">
 
 N15P_Y157D was most often a top 20 contender. N15P appears 8 times in the overall top 10, with at least 2 scenarios having this mutation in its top 20.
 
-<img src="analysis\filtered\figures\robust_variants.png" alt="Robust variants, filtered">
+<img src="analysis/filtered/figures/robust_variants.png" alt="Robust variants, filtered">
 
 Different scenarios show distinct frequencies of residue use, and while some variants were present in multiple scenarios, in the four scenarios, meaning four top 20's, there should be 80 variants in total. The little overlap of variants between scenarios means that each scenario illustrated here resulted in many new top 20 variants.
 
 ---
-For the top 20 variants, structures were generated, using OpenFold2 on NVIDIA NIM (https://build.nvidia.com/openfold/openfold2). Below are the metrics of the base case structures. The catalytic triad geometry appears well preserved in every variant. The variants are all structurally closer to other variants, than they are to the target structure, and with a nearest variant RMSD cutof of 0.8, the variants of the base case split into two structural basins.
+For the top 20 variants, structures were generated, using OpenFold2 on NVIDIA NIM (https://build.nvidia.com/openfold/openfold2). Below are the metrics of the base case structures. The catalytic triad geometry appears well preserved in every variant. The variants are all structurally closer to other variants, than they are to the target structure, and with a nearest variant RMSD cutoff of 0.8, the variants of the base case split into two structural basins.
 
 | Variant ID               | Coverage | Triad OK | d_Ser–His | d_His–Asp | d_Ser–Asp | Target RMSD | Nearest Variant RMSD | PASS | Basin ID |
 |--------------------------|----------|----------|-----------|-----------|-----------|-------------|----------------------|------|----------|
@@ -140,7 +140,7 @@ For the top 20 variants, structures were generated, using OpenFold2 on NVIDIA NI
 | VAR_20_N15P_E167V        | 1.0      | True     | 10.6898   | 4.4923    | 7.5226    | 0.6150      | 0.0988               | True | BASIN_02 |
 
 The RMSD between variants, and their basins are also visualized in the figures below, clearly showing how variants 9, 11, and 20 are in a distinct fold basin:  
-<img src="images\Pairwise_RMSD_basacase.png" alt="Pairwise RMSD base case"><img src="images\Dendrogram_basecase.png" alt="Dendogram base case">
+<img src="images/Pairwise_RMSD_basacase.png" alt="Pairwise RMSD base case"><img src="images/Dendrogram_basecase.png" alt="Dendogram base case">
 
 In the table below, the main metrics used for the final composite score are shown.
 | Variant ID               | Target RMSD | Nearest Variant RMSD | Exposed Hydrophobic Fraction | Largest Hydrophobic Patch | Radius of Gyration | Composite Score | Global Rank |
@@ -168,8 +168,8 @@ In the table below, the main metrics used for the final composite score are show
 
 The two highest ranked variants are both from basin 2, and the third variant (VAR_11) in basin 2 is also still ranked quite high, on the 7th position. A defining mutation in this basin is the N15P mutation. Already during the comparison of the different residues and mutations for the different scenarios, that residue 15 and the mutation N15P were highly preferred, and this is now also confirmed by the composite metrics of the base case. From the table, we can see that all basin 2 variants have a low RMSD to target, this is even more evident in the Pareto front and landscape plots:
 
-<img src="images\2D_Pareto_front_basecase.png" alt="2D Pareto base case">
-<img src="images\3D_Pareto_landscape_basecase.png" alt="3D Pareto base case">
+<img src="images/2D_Pareto_front_basecase.png" alt="2D Pareto base case">
+<img src="images/3D_Pareto_landscape_basecase.png" alt="3D Pareto base case">
 
 All the basin 2 variants are situated at the left part of the plot, with low RMSD to target. 
 
@@ -190,12 +190,12 @@ The Pareto optimal variants per scenario (be aware that strict_surface scenarios
 | 08_high_W_esm_strict_surface     | VAR_04_N15P_C241L *      | 0.32        |
 | 08_high_W_esm_strict_surface     | VAR_02_N15P_C241K        | 0.32        |
 
-Again N15P domination is observed. If I would rationalize the N15P mutation, it comes to mind that residue 15 is close to the N-terminus. This residue it at the boundary between the disordered N-terminal tail, and the first secondary structures in the protein. Mutation to proline makes the backbone more rigid. As this mutation is proposed through ESM scan, some rigidity at this part of the protein could be favorable, both for the stability of the structure, and for avoiding unfolding at the N-terminus.
+Again N15P domination is observed. If I would rationalize the N15P mutation, it comes to mind that residue 15 is close to the N-terminus. This residue is at the boundary between the disordered N-terminal tail, and the first secondary structures in the protein. Mutation to proline makes the backbone more rigid. As this mutation is proposed through ESM scan, some rigidity at this part of the protein could be favorable, both for the stability of the structure, and for avoiding unfolding at the N-terminus.
 
-This study demonstrates a fully computational pipeline, that uses generative AI to identify atropinesterase variants with improved solubility, while preserving the overall structure, and the structure of the catalytic site. Sequence and strucute attributes were combined and resulted in robuts indentification of the N15P mutation.
+This study demonstrates a fully computational pipeline, that uses generative AI to identify atropinesterase variants with improved solubility, while preserving the overall structure, and the structure of the catalytic site. Sequence and structure attributes were combined and resulted in robust identification of the N15P mutation.
 
 ## List the lessons you learned, and challenges faced during the project. Point out further work or ideas
-There are multiple aspects that contribute to solubility of enzymes, and thereforethere are also multiple design objectives. These objectives may sometimes compete, so it is important to find the correct balance. The Pareto front analysis helped to visualize the impact of two main objectives, structural integrity and low hydrophobic surface exposure, on the final composite score.
+There are multiple aspects that contribute to solubility of enzymes, and therefore there are also multiple design objectives. These objectives may sometimes compete, so it is important to find the correct balance. The Pareto front analysis helped to visualize the impact of two main objectives, structural integrity and low hydrophobic surface exposure, on the final composite score.
 
 The main difficulty was to get the folding running, an essential part of this project. I had tried different folding methods, the first few wouldn’t work on my hardware, or even on modal. For doing everything locally, the problem was that the latest ESMFold and OpenFold packages required a CUDA version not supporting my GPU. On Modal, I needed a custom package that was not pip installable, and I was not allowed to install it from a GitHub repository either.
 
@@ -205,10 +205,11 @@ One further work implied by this study, is to assess the solubility and selectiv
 
 It would also be interesting to see if less soluble and less stable variants (according to composite score) would be generated when aiming to mutate the lowest priority residues (I would not touch the locked residues), and selecting the most negative ΔlogP scores. If the model is correct for predicting solubility, this strategy should result in obtaining the variants most prone to aggregation.
 
-Finally, this work can also be expanded to other enzymes. The challenge of atropinesterases, is the scarcity of available data (genomic sequences, proteomic data, biochemical evaluation, and structural data). With more extensively studied enzymes, there would be a richer dataset, so the *in-silico* work wold be more informed, and moreover there might even already be experimental data for some of the variants that would be selected as top candidates by the *in-silico* pipeline.
+Finally, this work can also be expanded to other enzymes. The challenge of atropinesterases, is the scarcity of available data (genomic sequences, proteomic data, biochemical evaluation, and structural data). With more extensively studied enzymes, there would be a richer dataset, so the *in-silico* work would be more informed, and moreover there might even already be experimental data for some of the variants that would be selected as top candidates by the *in-silico* pipeline.
 
 ## Instructions for running the code
-```python3.12 -m venv .venv
+```
+python3.12 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -221,7 +222,8 @@ paste the key into .env
 `pip install python-dotenv`
 
 **in Python:**
-```import os
+```python
+import os
 from dotenv import load_dotenv
 load_dotenv()
 api_key = os.getenv("API_KEY")
@@ -258,6 +260,3 @@ Generative AI for enzyme design and biocatalysis. *arXiv*. Available at: [https:
 
 **Rörsch, A., Berends, F., Bartlema, H.C. and Stevens, W.F. (1971)**
 The isolation and properties of *Pseudomonas* strains growing on atropine and producing atropinesterase. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen. Series C: Biological and Medical Sciences*, **74**(2), pp. 132–147.
-
-
-
